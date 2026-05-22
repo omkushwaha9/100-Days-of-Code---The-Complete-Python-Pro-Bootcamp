@@ -11,3 +11,6 @@ print(type(True))
 print(type(123_456_789))
 #Output = <class 'int'>
 #Collection of major datatype's
+
+print(int("123") + int("456"))
+#Addition of numbers inside a string by converting their data into different types
