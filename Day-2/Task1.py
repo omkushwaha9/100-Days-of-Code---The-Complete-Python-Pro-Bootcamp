@@ -1,16 +1,20 @@
-#Everything in between "" is a string
-#If we want to know the datatype we can use - Type (ex:)
-print(type("Hello"))
-#Output = <class 'str'>
-print(type(123))
-#Output = <class 'int'>
-print(type(09.2603))
-#Output = <class 'float'>
-print(type(True))
-#Output = <class 'bool'>
-print(type(123_456_789))
-#Output = <class 'int'>
-#Collection of major datatype's
+print(len("Hello World"))
 
-print(int("123") + int("456"))
-#Addition of numbers inside a string by converting their data into different types
+# Subscripting
+print("Hello World!"[1])
+
+#String
+print("123" + "456")
+
+#Integer = Whole number
+print(123+456)
+
+#large Integers
+print(123_456_789)
+
+#Float = Floating point number
+print(9.789)
+
+#Boolean
+print(True)
+print(False)
