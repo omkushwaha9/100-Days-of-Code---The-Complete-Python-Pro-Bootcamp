@@ -6,6 +6,7 @@ if height >= 120:
     age = int(input("What is your age?"))
     if  age <= 12:
         print("please pay $5.")
+        #we can add as many as as if we want in the elif 
     elif age <= 18:
         print("please pay $7.")
     else:
